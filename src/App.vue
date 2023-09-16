@@ -1,22 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <m-card :imgSrc="logoImg" summary="这是一个自定义组件">
+      <template v-slot:footer>
+        <div class="footer">
+          <div class="left">哈哈哈哈</div>
+          <div class="right">嘿嘿嘿嘿</div>
+        </div>
+      </template>
+    </m-card>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+const logoImg = require("@/src/assets/logo.png");
 
 export default {
   name: "App",
-  components: {
-    HelloWorld,
+  components: {},
+  data() {
+    return {
+      logoImg,
+    };
   },
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,5 +33,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 </style>

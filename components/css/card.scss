@@ -1,0 +1,19 @@
+.m-card {
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  .m-card-img {
+    width: 100px;
+    height: 100px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
