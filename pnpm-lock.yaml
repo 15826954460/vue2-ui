@@ -7,6 +7,9 @@ dependencies:
   vue:
     specifier: ^2.6.14
     version: 2.6.14
+  vue2-ui-demo:
+    specifier: ^0.1.2
+    version: 0.1.2
 
 devDependencies:
   '@babel/core':
@@ -9640,6 +9643,13 @@ packages:
   /vue-template-es2015-compiler@1.9.1:
     resolution: {integrity: sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==}
     dev: true
+
+  /vue2-ui-demo@0.1.2:
+    resolution: {integrity: sha512-gCvMrcswKIpJpMuVXQq341XK3ZMgyW77nTzpkpCyBD9gdHCWBAjyFaeuM1tEBs45qUMIMRN0ioGpmvxzcSngVw==}
+    dependencies:
+      core-js: 3.8.3
+      vue: 2.6.14
+    dev: false
 
   /vue@2.6.14:
     resolution: {integrity: sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==}
