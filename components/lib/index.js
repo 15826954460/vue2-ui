@@ -1,8 +1,6 @@
-import Card from './card';
+import MCard from "./card";
 
-const components = {
-  Card,
-};
+const components = [MCard];
 
 // 全局组建
 export default {
@@ -12,4 +10,4 @@ export default {
 };
 
 // 局部组建
-export { Card };
+export { MCard };

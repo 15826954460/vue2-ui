@@ -8,15 +8,19 @@
         </div>
       </template>
     </m-card>
+    <the-test></the-test>
   </div>
 </template>
 
 <script>
+import TheTest from "./Test.vue";
 const logoImg = require("@/src/assets/logo.png");
 
 export default {
   name: "App",
-  components: {},
+  components: {
+    TheTest,
+  },
   data() {
     return {
       logoImg,

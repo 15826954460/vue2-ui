@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: "m-card",
+  name: "MCard",
   props: {
     imgSrc: {
       //卡片图片资源
